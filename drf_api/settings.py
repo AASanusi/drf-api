@@ -121,10 +121,6 @@ if 'CLIENT_ORIGIN_DEV' in os.environ:
 
 CORS_ALLOW_CREDENTIALS = True
 
-JWT_AUTH_COOKIE = 'my-app-auth'
-JWT_AUTH_REFRESH_COOKE = 'my-refresh-token'
-JWT_AUTH_SAMESITE = 'None'
-
 ROOT_URLCONF = 'drf_api.urls'
 
 TEMPLATES = [
